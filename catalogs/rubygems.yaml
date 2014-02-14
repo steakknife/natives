@@ -22,6 +22,11 @@ rubygems:
     apt:
       default:
         - libcurl4-openssl-dev
+  mysql2:
+    hombrew:
+      mac_os_x:
+        default:
+          - mysql
   nokogiri:
     apt:
       default:
