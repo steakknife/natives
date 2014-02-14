@@ -30,8 +30,16 @@ rubygems:
       mac_os_x:
         default:
           - memcached
+  ffi-zmq:
+    apt:
+      default:
+        - libzmq-dev
+    homebrew:
+      mac_os_x:
+        default:
+          - zeromq
   mongoid:
-    hombrew:
+    homebrew:
       mac_os_x:
         default:
           - mongodb
@@ -39,7 +47,7 @@ rubygems:
       default:
         - mongodb-10gen
   mysql2:
-    hombrew:
+    homebrew:
       mac_os_x:
         default:
           - mysql
@@ -48,6 +56,10 @@ rubygems:
       default:
         - libxslt-dev
         - libxml2-dev
+    homebrew:
+      default:
+        - "https://github.com/Homebrew/homebrew/commits/master/Library/Formula/libxslt.rb"
+        - "https://github.com/Homebrew/homebrew/commits/master/Library/Formula/libxml2.rb"
   pg:
     homebrew:
       mac_os_x:
@@ -81,3 +93,7 @@ rubygems:
     yum:
       default:
         - sqlite-devel
+    homebrew:
+      mac_os_x:
+        default:
+          - sqlite
