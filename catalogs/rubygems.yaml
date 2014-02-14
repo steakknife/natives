@@ -18,6 +18,10 @@ rubygems:
     homebrew:
       default:
         - icu4c
+  curb:
+    apt:
+      default:
+        - libcurl4-openssl-dev
   dalli:
     apt:
       default:
@@ -26,10 +30,6 @@ rubygems:
       mac_os_x:
         default:
           - memcached
-  curb:
-    apt:
-      default:
-        - libcurl4-openssl-dev
   mysql2:
     hombrew:
       mac_os_x:
