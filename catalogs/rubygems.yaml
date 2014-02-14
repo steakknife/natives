@@ -30,6 +30,14 @@ rubygems:
       mac_os_x:
         default:
           - memcached
+  mongoid:
+    hombrew:
+      mac_os_x:
+        default:
+          - mongodb
+    apt:
+      default:
+        - mongodb-10gen
   mysql2:
     hombrew:
       mac_os_x:
