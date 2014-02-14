@@ -58,8 +58,8 @@ rubygems:
         - libxml2-dev
     homebrew:
       default:
+        - "https://github.com/Homebrew/homebrew/commits/master/Library/Formula/libxml2.rb --without python"
         - "https://github.com/Homebrew/homebrew/commits/master/Library/Formula/libxslt.rb"
-        - "https://github.com/Homebrew/homebrew/commits/master/Library/Formula/libxml2.rb"
   pg:
     homebrew:
       mac_os_x:
