@@ -18,6 +18,14 @@ rubygems:
     homebrew:
       default:
         - icu4c
+  dalli:
+    apt:
+      default:
+        - memcached
+    homebrew:
+      mac_os_x:
+        default:
+          - memcached
   curb:
     apt:
       default:
